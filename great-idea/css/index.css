@@ -63,4 +63,245 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+a {
+	margin: 30px;
+	text-align: center;
+	color: black;
+	text-shadow: 1px 1px white;
+	
+}
+h2 {
+	font-size: 50px;
+	float: left;
+	margin : 120px;
+	
+	
+	
+}
+
+.on { 
+	position:relative; 
+	left: 80px;
+
+
+}
+
+.demand { 
+	position: relative; 
+	left: 30px;
+
+
+}
+
+p {
+    display: inline-block;
+	border:  1px solid;
+	position:relative; 
+	right: 260px;
+	top: -45px;
+	color: black;
+	text-shadow: 1px 1px gray;
+	}
+
+.right{
+
+	display: inline-block;
+	width: 400px;
+	height: 80px;
+	margin: 20px;
+}
+
+.left {
+	
+	display: inline-block;
+	width: 400px;
+	height: 80px;
+	margin: 20px;
+}
+
+.middle-img {
+	
+	display: inline-block;
+	margin: 20px;
+}
+
+.right1{
+
+	display: inline-block;
+	width: 250px;
+	height: 80px;
+	margin: 20px;
+}
+
+.right2{
+
+	display: inline-block;
+	width: 250px;
+	height: 80px;
+	margin: 20px;
+}
+	
+.right3{
+
+	display: inline-block;
+	width: 250px;
+	height: 80px;
+	margin: 20px;
+	
+}
+
+.contact{
+	display: inline-block;
+	width: 270px;
+	height: 80px;
+	
+	margin:  45px  20px;
+}
+
+footer {
+	position:relative; 
+	height:380px;
+	 top:50px;
+	 left: 380px;
+	 font-size: 14px;
+	 text-shadow: 1px 1px gray;
+}
+
+.number {
+	position:relative;
+	 margin: 8px;
+	 right: 2px;
+}
+
+
+.bottom-content {
+	display: flex;
+	flex-wrap: wrap;
+	
+	padding: 42px;
+}
+
+.top-content{
+	display: flex;
+	flex-wrap: wrap;
+	
+	width: 2000px;
+	padding: 40px;
+	
+}
+
+body {
+	background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/1080P-3D-Images-Desktop.jpg);
+	background-size: 63% 200%;  
+	background-position: fixed;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	width: 150px;
+	position:relative;
+	 margin: 8px;
+	 left: 75px;
+}
+
+
+
+
+.navigation1 {
+	margin: 20px;
+	text-align: top;
+	color: black;
+	text-shadow: 1px 1px white;
+
+}
+
+.services-header-img{
+position: relative;
+margin: 20px;
+width: 920px;
+right: 10px;
+
+}
+
+.service0 { display: inline-block;
+	width: 900px;
+	height: 180px;;
+  margin: 20px;
+}
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1000px;
+	position: relative;
+	bottom: 120px
+	
+
+}
+
+.main-content > div {
+   display: flex;
+	flex-wrap: wrap;
+   width: 450px;
+   height: 150px;
+  border: 1px solid darkgray;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(226, 223, 223);
+ 
+}
+
+h6 {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.facts {
+	position:relative; 
+	left: 18px;
+	width: 420px;
+	height: 150px;
+	bottom: 80px;
+	
+}
+
+.list {
+	position:relative; 
+	left: 18px;
+	width: 420px;
+	height: 150px;
+	bottom: 80px;
+    padding: 10px;
+}
+
+.services-info-img {
+	position:relative; 
+	left: 480px;
+	bottom: 410px;
+	width: 450px
+}
+
+.info {
+
+	border: 2px solid gray;
+	border-width: 1px;
+	width: 90px;
+	background-color: white;
+	font-size: 80%;
+	text-align: center;
+	box-shadow: 1px 1px darkgray;
+	border-radius: 12px;
+}
+
+.footer-services {
+	position:relative; 
+	left: 380px;
+	bottom: 330px;
+	text-shadow: 1px 1px darkgray;
+	font-size: 12px;
+	
+
+}
