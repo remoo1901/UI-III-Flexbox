@@ -105,20 +105,23 @@ p {
 	text-shadow: 1px 1px gray;
 	}
 
-.right{
+.top-content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 800px;
 
-	display: inline-block;
-	width: 400px;
-	height: 80px;
-	margin: 20px;
 }
 
-.left {
-	
-	display: inline-block;
-	width: 400px;
-	height: 80px;
-	margin: 20px;
+.top-content > div {
+	display: flex;
+	flex-wrap: wrap;
+   width: 450px;
+ 
+  padding: 10px;
+  margin: 1px;
+  
+	position: relative;
+  right: 20px;
 }
 
 .middle-img {
@@ -127,53 +130,56 @@ p {
 	margin: 20px;
 }
 
-.right1{
-
-	display: inline-block;
-	width: 250px;
-	height: 80px;
-	margin: 20px;
+.bottom-content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1000px;
 }
 
-.right2{
-
-	display: inline-block;
-	width: 250px;
-	height: 80px;
-	margin: 20px;
-}
+.bottom-content > div {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	width: 290px;
+	padding: 20px;
+	right: 30px; 
 	
-.right3{
-
-	display: inline-block;
-	width: 250px;
-	height: 80px;
-	margin: 20px;
-	
+ 
 }
 
 .contact{
-	display: inline-block;
+	display: flex;
+	justify-content: flex-start;
 	width: 270px;
 	height: 80px;
+	padding: 20px;
 	
-	margin:  45px  20px;
+	
 }
+
+.contact > div {
+	position:relative;
+	 margin: 8px;
+	 right: 2px;
+	 bottom: 20px; }
+	 
+.space {
+	position:relative;
+	bottom: 6px;
+
+}	 
+
 
 footer {
 	position:relative; 
 	height:380px;
-	 top:50px;
+	 top:150px;
 	 left: 380px;
 	 font-size: 14px;
 	 text-shadow: 1px 1px gray;
 }
 
-.number {
-	position:relative;
-	 margin: 8px;
-	 right: 2px;
-}
+
 
 
 .bottom-content {
@@ -193,8 +199,8 @@ footer {
 }
 
 body {
-	background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/1080P-3D-Images-Desktop.jpg);
-	background-size: 63% 200%;  
+	background-image: url(http://primuladirestelli.it/wp-content/uploads/2017/02/background-service.jpg);
+	background-size: 65% 210%;  
 	background-position: fixed;
 	background-repeat: no-repeat;
 }
@@ -299,9 +305,11 @@ h6 {
 .footer-services {
 	position:relative; 
 	left: 380px;
-	bottom: 330px;
+	bottom: 300px;
 	text-shadow: 1px 1px darkgray;
 	font-size: 12px;
 	
 
 }
+
+
